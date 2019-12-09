@@ -79,7 +79,7 @@ print("Dictionary after adding  values: {}".format(student))
 
 # Set a new value to corresponding key in dictionary
 student['class'] = "DSC140 - Data Preparation"
-print("Dictionary after changing city value: {}".format(student))
+print("Dictionary after changing class value: {}".format(student))
 
 # Task 14: Look a new value by the key in dictionary
-print("Dictionary - value by key : {}".format(student.get("class")))
+print("Dictionary - value by key 'class' : {}".format(student.get("class")))
